@@ -1,4 +1,4 @@
-name: Jadwal 10 Hari (WIB & New York) + SHUFFLE
+name: jadwal live
 
 on:
   workflow_dispatch:
@@ -50,14 +50,14 @@ jobs:
           # (Minimal 2 video supaya bisa diacak)
           # ========================================================
 
-          wget -O vid1.mp4 "https://github.com/sdasdfsdre/radio-gratisan/releases/download/v1.0/WRONG.EYES.Marvel.Avengers.NEW.EPISODES.Puzzle.Wrong.Heads.mp4"
-          wget -O vid2.mp4 "https://github.com/sdasdfsdre/radio-gratisan/releases/download/v1.0/WRONG.EYES.New.Episodes.-.Gabby.s.Dollhouse.Puzzle.Wrong.Heads.Cute.Wrong.EYE.mp4"
-          wget -O vid3.mp4 "https://github.com/sdasdfsdre/radio-gratisan/releases/download/v1.0/WRONG.EYES.New.Episodes.-.PAW.PATROL.Puzzle.Wrong.Heads.mp4"
-          wget -O vid4.mp4 "https://github.com/sdasdfsdre/radio-gratisan/releases/download/v1.0/WRONG.EYES.New.Episodes.-.Peppa.Pig.x.Elsa.x.Sheriff.Labrador.Puzzle.Wrong.Heads.Cute.Wrong.mp4"
-          wget -O vid5.mp4 "https://github.com/sdasdfsdre/radio-gratisan/releases/download/v1.0/WRONG.EYES.New.Episodes.-.TUNG.TUNG.SAHUR.x.RAGATHA.Puzzle.Wrong.Heads.Cute.Wrong.EYE.mp4"
-          wget -O vid6.mp4 "https://github.com/sdasdfsdre/radio-gratisan/releases/download/v1.0/WRONG.EYES.New.Episodes.BabyBoss.x.Paw.Patrol.x.Baby.Shark.Wrong.Heads.Cute.Wrong.EYE.mp4"
-          wget -O vid7.mp4 "https://github.com/sdasdfsdre/radio-gratisan/releases/download/v1.0/WRONG.EYES.New.Episodes.-.Assasino.Ballerina.Cappucino.x.KPop.Demon.Hunters.Puzzle.Wrong.Heads.mp4"
-          wget -O vid8.mp4 "https://github.com/sdasdfsdre/radio-gratisan/releases/download/v1.0/WRONG.EYES.Super.Mario.Franchise.NEW.EPISODES.Puzzle.Wrong.Heads.mp4"
+          wget -O vid1.mp4 "https://github.com/iniadhen-coder/live/releases/download/v1.0/WRONG.EYES.Marvel.Avengers.NEW.EPISODES.Puzzle.Wrong.Heads.mp4"
+          wget -O vid2.mp4 "https://github.com/iniadhen-coder/live/releases/download/v1.0/WRONG.EYES.New.Episodes.-.Assasino.Ballerina.Cappucino.x.KPop.Demon.Hunters.Puzzle.Wrong.Heads.mp4"
+          wget -O vid3.mp4 "https://github.com/iniadhen-coder/live/releases/download/v1.0/WRONG.EYES.New.Episodes.-.Gabby.s.Dollhouse.Puzzle.Wrong.Heads.Cute.Wrong.EYE.mp4"
+          wget -O vid4.mp4 "https://github.com/iniadhen-coder/live/releases/download/v1.0/WRONG.EYES.New.Episodes.-.PAW.PATROL.Puzzle.Wrong.Heads.mp4"
+          wget -O vid5.mp4 "https://github.com/iniadhen-coder/live/releases/download/v1.0/WRONG.EYES.New.Episodes.-.Peppa.Pig.x.Elsa.x.Sheriff.Labrador.Puzzle.Wrong.Heads.Cute.Wrong.mp4"
+          wget -O vid6.mp4 "https://github.com/iniadhen-coder/live/releases/download/v1.0/WRONG.EYES.New.Episodes.-.TUNG.TUNG.SAHUR.x.RAGATHA.Puzzle.Wrong.Heads.Cute.Wrong.EYE.mp4"
+          wget -O vid7.mp4 "https://github.com/iniadhen-coder/live/releases/download/v1.0/WRONG.EYES.New.Episodes.BabyBoss.x.Paw.Patrol.x.Baby.Shark.Wrong.Heads.Cute.Wrong.EYE.mp4"
+          wget -O vid8.mp4 "https://github.com/iniadhen-coder/live/releases/download/v1.0/WRONG.EYES.Super.Mario.Franchise.NEW.EPISODES.Puzzle.Wrong.Heads.mp4"
 
           # Mau tambah lagi? Tinggal copy baris wget di atas:
           # wget -O vid4.mp4 "LINK_VIDEO_4"
