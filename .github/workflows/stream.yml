@@ -5,7 +5,7 @@ on:
   schedule:
     # --- HARI 1 (HARI INI) ---
     # Target: Tgl 2 Jan, Jam 16:00 WIB (09:00 UTC)
-    - cron: "0 10 2 1 *"
+    - cron: "30 10 2 1 *"
 
     # --- HARI 2 s/d 10 (Target NEW YORK) ---
     # Target: Jam 15:30 NY (20:30 UTC) = Jam 03:30 WIB (Besoknya)
